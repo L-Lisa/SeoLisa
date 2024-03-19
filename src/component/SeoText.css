@@ -1,0 +1,35 @@
+.seo-text-section{
+    text-align: left;
+ 
+}
+.image-back{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.seo-section-img{
+ 
+    width: -webkit-fill-available;
+    background: black;
+    height: auto;  
+    max-height: 70vh;
+}
+
+@media (min-width: 768px) {     
+    .seo-section-img {
+        width: auto;
+        max-height: 70vh;   }
+}
+.text-seo{
+margin: 1rem;
+}
+
+
+/* 
+.seo-background-image{
+    background-image: url('path/to/your/image.jpg'); 
+    background-size: cover;
+    background-position: center;
+} */

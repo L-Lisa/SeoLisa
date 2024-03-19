@@ -1,0 +1,76 @@
+/* NavBar.css - Mobile First Approach */
+.navbar {
+  background-color: #000; /* Black background for mobile */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100vw;
+}
+
+.logo {
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.nav-items {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  flex-direction: column;
+  background-color: #000; /* Black background for mobile */
+  width: 100%;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: white; /* White text */
+  transition: color 0.3s;
+  padding:1rem;
+}
+
+.nav-items a:hover {
+  color: #ffcc99; /* Peach hover color */
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 30px;
+  height: 3px;
+  background-color: white; /* White hamburger lines */
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-items {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    transform: translateY(0);
+    background-color: transparent; /* Reset for larger screens */
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .nav-items.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}

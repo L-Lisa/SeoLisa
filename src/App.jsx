@@ -3,11 +3,11 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
-import {Nav} from "./components/Nav/Nav"
+import {Nav} from "./component/Nav"
 import { useState } from "react";
 import {Hem} from './pages/Hem';
 import {SEO} from './pages/SEO';
-import {Kontakt} from './pages/kontakt';
+import {Kontakt} from './pages/Kontakt';
 
 
 export const App = () => {

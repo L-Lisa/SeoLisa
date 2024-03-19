@@ -1,0 +1,83 @@
+.simple{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+.seo-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (min-width: 768px) {
+    .seo-hero {
+      height: 78vh;
+    }
+  }
+.seo-h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: calc(5vw + 10px);
+    margin: 0 10px;
+    max-width: calc(100vw - 20px);
+    word-wrap: break-word;
+    text-align: left;
+    font-weight: 800;
+}
+.seo-info-text{
+    background: white;
+    color: black;
+    text-align: left;
+    padding: 1rem;
+}
+.seo-first{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+.seo-info-h4{
+    font-size: 3rem;
+    margin-block-start: 0.1rem;
+}
+.background {
+    background-image: url('../assets/digitalisa.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%; 
+}
+@keyframes starShine {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    50% {
+        left: 50%;
+        opacity: 1;
+    }
+    100% {
+        left: 200%;
+        opacity: 0;
+    }
+}
+
+.shine {
+    position: relative;
+    background-color: black;
+}
+
+.shine::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%; /* Wide enough to span across the screen */
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, transparent 70%);
+    opacity: 0;
+    animation: starShine 1s linear 1s forwards;
+}
+.seo-background-image{
+    background-image: url('../assets/seo-success.webp'); 
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
