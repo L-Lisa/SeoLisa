@@ -7,7 +7,7 @@ import {Nav} from "./component/Nav"
 import { useState } from "react";
 import {Hem} from './pages/Hem';
 import {SEO} from './pages/SEO';
-import {Kontakt} from './pages/Kontakt';
+import {OmSeoLisa} from './pages/OmSeoLisa';
 
 
 export const App = () => {
@@ -18,7 +18,7 @@ return (
       <Routes>
         <Route path="/" element={<Hem />} />
         <Route path="/SEO" element={<SEO />} />
-        <Route path="/Kontakt" element={<Kontakt />} />
+        <Route path="/omSeoLisa" element={<OmSeoLisa />} />
       </Routes>
     </Router>
   

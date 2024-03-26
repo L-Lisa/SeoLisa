@@ -12,7 +12,6 @@ export const Text = ({ h1,h2, h3, strong1, strong2, strong3, strong4, p1, p2, p3
           </>
           }
          
-        
           <div className="text-seo">
             {px && <p>{px}</p>}
             {h1 && <h1>{h1}</h1>}
@@ -22,8 +21,7 @@ export const Text = ({ h1,h2, h3, strong1, strong2, strong3, strong4, p1, p2, p3
           {strong2 && <strong>{strong2}</strong>}<p>{p2}</p>
          {strong3 && <strong>{strong3}
           </strong>} <p>{p3}</p>
-          {strong3 && <strong>{strong3}
-          </strong>}<p>{p3}</p>
+          
           {strong4 && <strong>{strong4}
           </strong>}<p>{p4}</p>
           </div>

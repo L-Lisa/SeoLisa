@@ -9,9 +9,9 @@ export const Hem = () => {
   return (
    <main className= "simple">
    <section className='seo-hero shine'>
-<h1 className='seo-h1'>SEO, hemsidor <br/> & digital marknadsföring</h1>
+<h1 className='seo-h1'>SEO, SGE <br/> & hemsidor</h1>
 <h2>För dig som vill synas på Google</h2>
-<h3>seo byrå + web byrå = Digitalisa </h3>
+<h3>seo byrå + web byrå = SEOLisa </h3>
    </section>
   <section>
     <div className='seo-info-text'>
@@ -36,10 +36,19 @@ Vår strategi är dynamisk och uppdateras kontinuerligt för att anpassa sig til
 </div>
 </section>
 <section>
-<Text
-/*  seoImage={datorsml} */
-/*  seoImage={digitalisa} */
-strong1={"Boka tid"}
+<Card
+h3={"SEO - vad och varför"}
+strong3={"Vi kan coacha dig genom grunderna så att du har koll på läget själv."}
+/>
+<Card
+h3={"Lär dig mer om SGE"}
+strong3={"Det kommer snart.. var redo!"}
+p3={"När AI växer vill du att den ska förstå din sida lika bra som Google gör."}
+/>
+<Card
+h3={"SEO tjänster"}
+strong3={"Vi hjälper dig och din hemsida synas."}
+p3={"Vi kan erbjuda olika nivåer av tjänster. Börja med att boka ett gratis samtal för att se vilken strategi som passar dig bäst."}
 />
 </section>
 </main>
