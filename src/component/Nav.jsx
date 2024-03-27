@@ -15,7 +15,7 @@ export const Nav = () => {
       <div className={`nav-items ${isOpen ? 'open' : ''}`}>
         <a href="/">Hem</a>
         <a href="/seo">SEO</a>
-        <a href="/kontakt">Kontakt</a>
+        <a href="/OmSeoLisa">Kontakt</a>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
         <div className="line"></div>

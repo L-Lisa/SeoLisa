@@ -3,6 +3,7 @@ import {Card} from "../component/Card"
 import {Text} from "../component/SeoText"
 import datorsml from "../assets/datorsml.png"
 import digitalisa from "../assets/digitalisa.webp"
+import Icon1 from "../assets/seo-Icon1.png"
 
 export const Hem = () => {
    
@@ -35,21 +36,36 @@ Vår strategi är dynamisk och uppdateras kontinuerligt för att anpassa sig til
 </p>
 </div>
 </section>
-<section>
+<section className='seo-cards'>
 <Card
-h3={"SEO - vad och varför"}
-strong3={"Vi kan coacha dig genom grunderna så att du har koll på läget själv."}
+seoCardImage={Icon1}
+h3={"SEO - Lär dig mer"}
+strong3={"Kort lättläst info om de olika bitarna i SEO"}
+p3={"Vi berättar gärna mer under ett kostnadsfritt samtal så vi även tar fram den bästa strategin för dig."}
 />
+
 <Card
-h3={"Lär dig mer om SGE"}
-strong3={"Det kommer snart.. var redo!"}
-p3={"När AI växer vill du att den ska förstå din sida lika bra som Google gör."}
+
+seoCardImage={Icon1}
+h3={"SGE?"}
+strong3={"AI sök kommer snart.. var redo!"}
+p3={"När AI växer vill du att den ska förstå din sida lika bra som Google gör. Det handlar mer om att vara värdefull än störst och bäst. Är det en möjlighet för dig?"}
 />
-<Card
+<Card 
+link="/SEO"
+seoCardImage={Icon1}
 h3={"SEO tjänster"}
-strong3={"Vi hjälper dig och din hemsida synas."}
-p3={"Vi kan erbjuda olika nivåer av tjänster. Börja med att boka ett gratis samtal för att se vilken strategi som passar dig bäst."}
+strong3={"Vad kostar det, och hur funkar det?!"}
+p3={"Det är inte bara vad som erbjuds utan hur det görs. Personlig kontakt och LIVE tillgång till din egen SEO data är en del av de saker som sticker ut hos oss."}
 />
+<Card 
+link="/omSeoLisa"
+seoCardImage={Icon1}
+h3={"SEO Lisa"}
+strong3={"SEO kan se ut som häxkonster, men vi vill väl"}
+p3={"Vi jobbar inte med din konkurrent samtidigt, men vi hjälper folk växa tillsammans. Mest av allt vill vi att ögonen inte ska blöda när man ser på en hemsidas struktur."}
+/>
+
 </section>
 </main>
   );

@@ -1,16 +1,14 @@
 import './Card.css';
 
 
-export const Card = ({ seoCardImage, h3, strong3, p3, h4, strong4, p4, title, }) => {
+export const Card = ({ link, seoCardImage, h3, strong3, p3, h4, strong4, p4, title, }) => {
   return (
-   <>
-   <div>
+    <a href={link} className="card-link">
+   <div className="seo-card">
      {seoCardImage && 
-     <>
        <div>
     <img className="seo-card-img" src={seoCardImage} alt={title}/>
      </div>
-     </>
      }
  <div>
  {h3 && <h3>{h3}</h3>}
@@ -20,8 +18,8 @@ export const Card = ({ seoCardImage, h3, strong3, p3, h4, strong4, p4, title, })
  {strong4 && <strong>{strong4}</strong>}
  { p4 && <p>{p4}</p> }
  </div>
-  
  </div>
-   </>
+ </a>
+
   );
 };
