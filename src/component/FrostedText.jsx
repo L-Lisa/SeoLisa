@@ -1,6 +1,7 @@
 import "./FrostedText.css"
 
-export const FrostedText = ({h1,h2, h3, strong1, strong2, strong3, strong4, p1, p2, p3, p4, title }) => {
+// eslint-disable-next-line react/prop-types
+export const FrostedText = ({h1,h2, h3, strong1, strong2, strong3, strong4, p1, p2, p3, p4}) => {
     return (
       <>
         <div className="frosted-text-section">

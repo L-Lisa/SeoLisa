@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Nav.css';
 
 export const Nav = () => {

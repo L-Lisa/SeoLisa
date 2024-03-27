@@ -2,7 +2,6 @@ import '../pages/Pages.css';
 import { Text } from '../component/SeoText';
 import { Card } from '../component/Card';
 import seo from "../assets/seo-success.png"
-import tekniskSeo from "../assets/SEO.webp" 
 
 export const SEO = () => {
   return (

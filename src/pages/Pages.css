@@ -1,14 +1,15 @@
-.simple{
+/* .simple{
     background-color: var(--color-dark);
     color: var(--color-light);
-}
-.seo-hero{
+} */
+
+.seo-byro-hero{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 @media screen and (min-width: 768px) {
-    .seo-hero {
+    .seo-byro-hero{
       height: 78vh;
     }
   }

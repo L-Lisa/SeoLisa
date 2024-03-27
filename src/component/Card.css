@@ -2,12 +2,12 @@
     width: 16rem;
     padding: 1rem;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px); 
+    background-color: #ced6e263;
+    backdrop-filter: blur(10px);
     border: none;
     border-radius: 10px;
     padding: 10px;
-    color: #FFF;
+
     margin: 1rem;
 }
 .seo-card-img{

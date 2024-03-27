@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "./SeoText.css"
 
 export const Text = ({ h1,h2, h3, strong1, strong2, strong3, strong4, p1, p2, p3, p4,seoImage, title , px}) => {
